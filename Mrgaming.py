@@ -35,12 +35,55 @@ for channel_div in channel_divs:
             # Store the channel name, :authority:, and :path:
             names_links[channel_name] = {
                 "authority": authority,
-                "path": path
+                "path": path,
+                "tag": "24-7-tv"  # Adding tag for source page
             }
         else:
             print(f"No .m3u8 URL found for {channel_name}")
     else:
         print(f"Failed to fetch {channel_name} page")
+
+# Fetch HTML content and parse the new page for event links
+fighting_url = 'https://mrgamingstreams.com/fighting/'
+fighting_response = requests.get(fighting_url)
+fighting_html_content = fighting_response.content
+fighting_soup = BeautifulSoup(fighting_html_content, 'html.parser')
+
+schedule_table = fighting_soup.find('table', id='scheduleTable')
+if schedule_table:
+    event_rows = schedule_table.find_all('tr')[1:]  # Skipping the header row
+
+    for row in event_rows:
+        columns = row.find_all('td')
+        if len(columns) == 3:
+            event_name = columns[1].text.strip()
+            link = columns[2].a['href']
+
+            # Fetch each event's page
+            event_page_response = requests.get(link)
+            if event_page_response.status_code == 200:
+                event_page = event_page_response.text
+                # Search for .m3u8 URL in the response text
+                m3u8_url = re.search(r'(https://[^\s]+\.m3u8)', event_page)
+
+                if m3u8_url:
+                    # Extracted .m3u8 URL
+                    extracted_m3u8 = m3u8_url.group()
+
+                    # Parse :authority: and :path: from the URL
+                    authority = extracted_m3u8.split('/')[2]
+                    path = '/'.join(extracted_m3u8.split('/')[3:])
+
+                    # Add the event to your names_links dictionary with a tag
+                    names_links[event_name] = {
+                        "authority": authority,
+                        "path": path,
+                        "tag": "fighting"  # Adding tag for source page
+                    }
+                else:
+                    print(f"No .m3u8 URL found for {event_name}")
+            else:
+                print(f"Failed to fetch {event_name} page")
 
 # File path
 file_path = 'updated_file.m3u8'
@@ -51,18 +94,20 @@ if os.path.exists(file_path):
     with open(file_path, 'r') as file:
         existing_content = file.read()
 
-# Remove the playlist line if it exists and anything below it
+# Split the existing content by '#PLAYLIST:Mrgaming' and retain only the content after it
+playlist_section = ""
 if "#PLAYLIST:Mrgaming\n" in existing_content:
-    existing_content = existing_content.split("#PLAYLIST:Mrgaming\n")[0]
+    playlist_section = existing_content.split("#PLAYLIST:Mrgaming\n")[1]
 
-# Write content to the .m3u8 file
+# Clear the content of the file
 with open(file_path, 'w') as file:
-    file.write(existing_content)  # Write existing content without the Mrgaming playlist line and below
+    file.write("#PLAYLIST:Mrgaming\n")  # Rewrite the Mrgaming playlist title
 
-    # Write the Mrgaming playlist title
-    file.write("#PLAYLIST:Mrgaming\n")
+# Append the playlist section without modification to the file
+with open(file_path, 'a') as file:
+    file.write(playlist_section)
 
-    # Write content for Mrgaming playlist only
+    # Append modified content for Mrgaming playlist only
     for name, link in names_links.items():
-        file.write(f"#EXTINF:-1 , {name}\n")
+        file.write(f"#EXTINF:-1 , {name} {link['tag']}\n")
         file.write(f"https://{link['authority']}/{link['path']}\n")
