@@ -1,0 +1,40 @@
+name: Scrape and Update M3U8
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'  # Runs at midnight UTC every day
+
+jobs:
+  update_m3u8:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4
+
+    - name: Run Python script
+      run: python scrape_and_update.py
+
+    - name: Commit and push changes
+      run: |
+          git diff
+          git config --global user.email "actions@github.com"
+          git config --global user.name "actions-user"
+          git add updated_file.m3u8
+          git commit -am "Update m3u8 file"
+          git pull --rebase origin main
+          git push
