@@ -1,109 +1,91 @@
-#EXTM3U
-#PLAYLIST:StreamB
-#EXTINF:-1 , CRICKET(24x7)
-https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 , Middlesbrough vs Chelsea
-https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 , Fiorentina vs Bologna
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 , NBA TV NETWORK (24x7)
-https://hls.streambtw.com/live/stream_.m3u8
-#EXTINF:-1 , Detroit Pistons vs Sacramento Kings
-https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 , Orlando Magic vs Minnesota Timberwolves
-https://hls.streambtw.com/live/stream_2.m3u8
-#EXTINF:-1 , New York Knicks vs Portland Trail Blazers
-https://hls.streambtw.com/live/stream_3.m3u8
-#EXTINF:-1 , Dallas Mavericks vs Memphis Grizzlies
-https://hls.streambtw.com/live/stream_4.m3u8
-#EXTINF:-1 , Los Angeles Lakers vs Toronto Raptors
-https://hls.streambtw.com/live/stream_5.m3u8
 #PLAYLIST:Mrgaming
-#EXTINF:-1 , ACC Network
+#EXTINF:-1 , ACC Network 24-7-tv
 https://247.mrgamingstreams.com/mrgamingaccn.m3u8
-#EXTINF:-1 , Big Ten Network
+#EXTINF:-1 , Big Ten Network 24-7-tv
 https://247.mrgamingstreams.com/mrgamingbtn.m3u8
-#EXTINF:-1 , CBS Sports
+#EXTINF:-1 , CBS Sports 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingcbssn.m3u8
-#EXTINF:-1 , ESPN
+#EXTINF:-1 , ESPN 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingespn.m3u8
-#EXTINF:-1 , ESPN 2
+#EXTINF:-1 , ESPN 2 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingespn2.m3u8
-#EXTINF:-1 , ESPN News
+#EXTINF:-1 , ESPN News 24-7-tv
 https://247.mrgamingstreams.com/mrgamingespnews.m3u8
-#EXTINF:-1 , ESPN U
+#EXTINF:-1 , ESPN U 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingespnu.m3u8
-#EXTINF:-1 , Eurosport 2
+#EXTINF:-1 , Eurosport 2 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingeuro2.m3u8
-#EXTINF:-1 , FS1
+#EXTINF:-1 , FS1 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingfs1.m3u8
-#EXTINF:-1 , FS2
+#EXTINF:-1 , FS2 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingfs2.m3u8
-#EXTINF:-1 , FloRacing 24/7
+#EXTINF:-1 , FloRacing 24/7 24-7-tv
 https://linear-554.frequency.stream/dist/flosports/554/hls/master/playlist.m3u8
-#EXTINF:-1 , Fox Deportes
+#EXTINF:-1 , Fox Deportes 24-7-tv
 https://mcdn.mrgamingstreams.com/foxd.m3u8
-#EXTINF:-1 , Longhorn Net
+#EXTINF:-1 , Longhorn Net 24-7-tv
 https://247b.mrgamingstreams.com/mrgaminglonghorn.m3u8
-#EXTINF:-1 , MAVTV
+#EXTINF:-1 , MAVTV 24-7-tv
 https://bp2.mrgamingstreams.com/mrgamingmavtv.m3u8
-#EXTINF:-1 , NBC Sports Cali
+#EXTINF:-1 , NBC Sports Cali 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingcali.m3u8
-#EXTINF:-1 , NBC Sports Philly
+#EXTINF:-1 , NBC Sports Philly 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingphilly.m3u8
-#EXTINF:-1 , NHL Net
+#EXTINF:-1 , NHL Net 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingnhlnet.m3u8
-#EXTINF:-1 , Pac-12 Network
+#EXTINF:-1 , Pac-12 Network 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingpacnet.m3u8
-#EXTINF:-1 , SEC Network
+#EXTINF:-1 , SEC Network 24-7-tv
 https://247.mrgamingstreams.com/mrgamingsecn.m3u8
-#EXTINF:-1 , Sky Arena
+#EXTINF:-1 , Sky Arena 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingskyarena.m3u8
-#EXTINF:-1 , Sky Cricket
+#EXTINF:-1 , Sky Cricket 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingcricket.m3u8
-#EXTINF:-1 , Sky Golf
+#EXTINF:-1 , Sky Golf 24-7-tv
 https://247.mrgamingstreams.com/mrgaminggolf.m3u8
-#EXTINF:-1 , Sky Main Event
+#EXTINF:-1 , Sky Main Event 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingmainevent.m3u8
-#EXTINF:-1 , Sky Mix
+#EXTINF:-1 , Sky Mix 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingmix.m3u8
-#EXTINF:-1 , Supersport Cricket
+#EXTINF:-1 , Supersport Cricket 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingsscric.m3u8
-#EXTINF:-1 , Tennis Channel
+#EXTINF:-1 , Tennis Channel 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingtennis.m3u8
-#EXTINF:-1 , TNT
+#EXTINF:-1 , TNT 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingtnt.m3u8
-#EXTINF:-1 , TNT Sports 1
+#EXTINF:-1 , TNT Sports 1 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingbtsport1.m3u8
-#EXTINF:-1 , TNT Sports 2
+#EXTINF:-1 , TNT Sports 2 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingbtsport2.m3u8
-#EXTINF:-1 , TNT Sports 3
+#EXTINF:-1 , TNT Sports 3 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingbtsport3.m3u8
-#EXTINF:-1 , TNT Sports 4
+#EXTINF:-1 , TNT Sports 4 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingbtsport4.m3u8
-#EXTINF:-1 , TSN 1
+#EXTINF:-1 , TSN 1 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingtsn1.m3u8
-#EXTINF:-1 , TSN 3
+#EXTINF:-1 , TSN 3 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingtsn3.m3u8
-#EXTINF:-1 , TYC Sports
+#EXTINF:-1 , TYC Sports 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingtyc.m3u8
-#EXTINF:-1 , Willow TV
+#EXTINF:-1 , Willow TV 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingwillow.m3u8
-#EXTINF:-1 , ABC
+#EXTINF:-1 , ABC 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingabc.m3u8
-#EXTINF:-1 , AMC
+#EXTINF:-1 , AMC 24-7-tv
 https://247b.mrgamingstreams.com/amc.m3u8
-#EXTINF:-1 , CBS
+#EXTINF:-1 , CBS 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingcbs.m3u8
-#EXTINF:-1 , CNBC
+#EXTINF:-1 , CNBC 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingcnbc.m3u8
-#EXTINF:-1 , FOX
+#EXTINF:-1 , FOX 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingfox.m3u8
-#EXTINF:-1 , NBC
+#EXTINF:-1 , NBC 24-7-tv
 https://247.mrgamingstreams.com/mrgamingnbc.m3u8
-#EXTINF:-1 , SYFY
+#EXTINF:-1 , SYFY 24-7-tv
 https://247b.mrgamingstreams.com/syfy.m3u8
-#EXTINF:-1 , Sky Sports News
+#EXTINF:-1 , Sky Sports News 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingskynews.m3u8
-#EXTINF:-1 , TruTV
+#EXTINF:-1 , TruTV 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingtrutv.m3u8
+#EXTINF:-1 , NXT fighting
+https://mcdn.mrgamingstreams.com/mrgamingwwe.m3u8
