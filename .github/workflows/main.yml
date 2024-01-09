@@ -27,7 +27,7 @@ jobs:
         pip install requests beautifulsoup4
 
     - name: Run Python script
-      run: python scrape_and_update.py
+      run: python freesports.py
 
     - name: Run Mrgaming.py
       run: python Mrgaming.py
