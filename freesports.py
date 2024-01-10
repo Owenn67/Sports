@@ -42,19 +42,32 @@ if os.path.exists(file_path):
     with open(file_path, 'r') as file:
         existing_content = file.read()
 
-# Remove any existing content after "#PLAYLIST:StreamB"
-if "#PLAYLIST:StreamB\n" in existing_content:
-    existing_content = existing_content.split("#PLAYLIST:StreamB\n")[0]
+# Locate the position of #PLAYLIST:Mrgaming
+mrgaming_index = existing_content.find("#PLAYLIST:Mrgaming")
 
-# Write content to the .m3u8 file
-with open(file_path, 'w') as file:
-    file.write(existing_content)  # Write existing content without the StreamB playlist line and below
+# Append content after #PLAYLIST:Mrgaming if found, or append at the end if not found
+if mrgaming_index != -1:
+    before_mrgaming = existing_content[:mrgaming_index]
+    after_mrgaming = existing_content[mrgaming_index:]
 
-    # Write the StreamB playlist title
-    file.write("#PLAYLIST:StreamB\n")
+    with open(file_path, 'w') as file:
+        file.write(before_mrgaming)  # Write content before #PLAYLIST:Mrgaming
 
-    # Write content for StreamB playlist only
-    for category, channels in names_links.items():
-        for name, link in channels.items():
-            file.write(f"#EXTINF:-1 , {name}\n")
-            file.write(f"{link}\n") 
+        # Write the StreamB playlist title
+        file.write("#PLAYLIST:StreamB\n")
+
+        # Write content for StreamB playlist only
+        for category, channels in names_links.items():
+            for name, link in channels.items():
+                file.write(f"#EXTINF:-1 , {name}\n")
+                file.write(f"{link}\n")
+
+        file.write(after_mrgaming)  # Write content after #PLAYLIST:Mrgaming
+else:
+    with open(file_path, 'a') as file:
+        file.write("#PLAYLIST:StreamB\n")
+
+        for category, channels in names_links.items():
+            for name, link in channels.items():
+                file.write(f"#EXTINF:-1 , {name}\n")
+                file.write(f"{link}\n")
