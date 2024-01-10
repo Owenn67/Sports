@@ -57,4 +57,4 @@ with open(file_path, 'w') as file:
     for category, channels in names_links.items():
         for name, link in channels.items():
             file.write(f"#EXTINF:-1 , {name}\n")
-            file.write(f"{link}\n")
+            file.write(f"{link}\n") 
