@@ -1,73 +1,102 @@
 import requests
 from bs4 import BeautifulSoup
+import re
 import os
 
-# Fetch HTML content
-url = 'https://soccer.freesportstime.com/'
-response = requests.get(url)
-html_content = response.content
+# Function to fetch and update .m3u8 file
+def update_m3u8_file(file_path):
+    # Fetch HTML content
+    url = 'https://streambtw.com'
+    response = requests.get(url)
+    html_content = response.content
 
-# Parse HTML content
-soup = BeautifulSoup(html_content, 'html.parser')
+    # Parse HTML content
+    soup = BeautifulSoup(html_content, 'html.parser')
 
-# Extract names and links
-names_links = {}
-sections = soup.find_all('ul', class_='list-group')
-for section in sections:
-    section_name = section.find('center').text.strip()
-    links = section.find_all('li', class_='list-group-item')
-    names_links[section_name] = {}
-    for link in links:
-        name = link.text.strip()
-        iframe_url = link.a['href']  # Assuming this is the iframe URL
+    # Extract names and create .m3u8 links
+    names_links = {}
+    ul_lists = soup.find_all('ul', class_='list-group')
 
-        # Extract the number from the URL
-        channel_number = ''.join(filter(str.isdigit, iframe_url))
+    for ul_list in ul_lists:
+        category = ul_list.find('center').text.strip()
 
-        # Check URL format and create the .m3u8 link accordingly
-        if 'box' in iframe_url:
-            m3u8_link = f'https://hls.streambtw.com/live/stream_box{channel_number}.m3u8'
+        # Find all <a> tags within the list
+        channel_links = ul_list.find_all('a')
+        for channel_link in channel_links:
+            channel_name = channel_link.text.strip()
+            href = channel_link['href']
+
+            # Fetch each channel's page
+            channel_page_response = requests.get(href)
+            if channel_page_response.status_code == 200:
+                channel_page = channel_page_response.text
+                # Search for .m3u8 URL in the response text
+                m3u8_url = re.search(r'(https://[^\s]+\.m3u8)', channel_page)
+
+                if m3u8_url:
+                    # Extracted .m3u8 URL
+                    extracted_m3u8 = m3u8_url.group()
+
+                    # Parse :authority: and :path: from the URL
+                    authority = extracted_m3u8.split('/')[2]
+                    path = '/'.join(extracted_m3u8.split('/')[3:])
+
+                    # Store the channel name, :authority:, and :path:
+                    names_links[channel_name] = {
+                        "category": category,
+                        "authority": authority,
+                        "path": path
+                    }
+                else:
+                    print(f"No .m3u8 URL found for {channel_name} in {category}")
+            else:
+                print(f"Failed to fetch {channel_name} page in {category}")
+
+    # Read existing content from the file
+    existing_content = ""
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as file:
+            existing_content = file.read()
+
+    # Find the start and end index of '#PLAYLIST:StreamB' if it exists
+    playlist_start_index = existing_content.find("#PLAYLIST:StreamB")
+    playlist_end_index = existing_content.find("#PLAYLIST:", playlist_start_index + 1) if playlist_start_index != -1 else -1
+
+    if playlist_start_index != -1:
+        # Remove the content under StreamB playlist
+        updated_content = existing_content[:playlist_start_index + len("#PLAYLIST:StreamB\n")]
+
+        # Append modified content for StreamB playlist only
+        for name, link in names_links.items():
+            new_link = f"https://{link['authority']}/{link['path']}\n"
+
+            if new_link not in existing_content:
+                updated_content += f"#EXTINF:-1 , {name} - {link['category']}\n"
+                updated_content += new_link
+
+                # Optionally, add more custom tags here for each channel
+
+        # Append existing content after StreamB playlist if there's content after it
+        if playlist_end_index != -1:
+            updated_content += existing_content[playlist_end_index:]
         else:
-            m3u8_link = f'https://hls.streambtw.com/live/stream_{channel_number}.m3u8'
+            updated_content += "\n"  # Add a newline at the end if StreamB playlist was at the end of the file
 
-        # Map the channel name to its .m3u8 link
-        names_links[section_name][name] = m3u8_link
+        # Write the updated content back to the file
+        with open(file_path, 'w') as file:
+            file.write(updated_content)
 
-# File path
-file_path = 'updated_file.m3u8'
+    else:
+        print("StreamB playlist doesn't exist. Creating...")
+        # If the marker doesn't exist, append it and the new links to the end of the file
+        with open(file_path, 'a') as file:
+            file.write("#PLAYLIST:StreamB\n")
 
-# Read existing content from the file
-existing_content = ""
-if os.path.exists(file_path):
-    with open(file_path, 'r') as file:
-        existing_content = file.read()
+            for name, link in names_links.items():
+                file.write(f"#EXTINF:-1 , {name} - {link['category']}\n")
+                file.write(f"https://{link['authority']}/{link['path']}\n")
 
-# Locate the position of #PLAYLIST:Mrgaming
-mrgaming_index = existing_content.find("#PLAYLIST:Mrgaming")
+                # Optionally, add more custom tags here for each channel
 
-# Append content after #PLAYLIST:Mrgaming if found, or append at the end if not found
-if mrgaming_index != -1:
-    before_mrgaming = existing_content[:mrgaming_index]
-    after_mrgaming = existing_content[mrgaming_index:]
-
-    with open(file_path, 'w') as file:
-        file.write(before_mrgaming)  # Write content before #PLAYLIST:Mrgaming
-
-        # Write the StreamB playlist title
-        file.write("#PLAYLIST:StreamB\n")
-
-        # Write content for StreamB playlist only
-        for category, channels in names_links.items():
-            for name, link in channels.items():
-                file.write(f"#EXTINF:-1 , {name}\n")
-                file.write(f"{link}\n")
-
-        file.write(after_mrgaming)  # Write content after #PLAYLIST:Mrgaming
-else:
-    with open(file_path, 'a') as file:
-        file.write("#PLAYLIST:StreamB\n")
-
-        for category, channels in names_links.items():
-            for name, link in channels.items():
-                file.write(f"#EXTINF:-1 , {name}\n")
-                file.write(f"{link}\n")
+# Call the function to update the .m3u8 file
+update_m3u8_file('updated_file.m3u8')
