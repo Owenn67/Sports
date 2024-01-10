@@ -98,21 +98,20 @@ if os.path.exists(file_path):
 playlist_index = existing_content.find("#PLAYLIST:Mrgaming")
 
 if playlist_index != -1:
-    # Split the content by '#PLAYLIST:Mrgaming' and retain only the content after it
-    playlist_section = existing_content[playlist_index + len("#PLAYLIST:Mrgaming\n"):]
+    # Find the end index of the playlist section to remove old links
+    end_playlist_index = existing_content.find("#EXTINF:-1", playlist_index + len("#PLAYLIST:Mrgaming\n"))
+    if end_playlist_index != -1:
+        end_playlist_index = existing_content.rfind("\n", playlist_index, end_playlist_index)
 
     # Write the content before the playlist section
     with open(file_path, 'w') as file:
         file.write(existing_content[:playlist_index + len("#PLAYLIST:Mrgaming\n")])
 
-    # Append the playlist section without modification to the file
-    with open(file_path, 'a') as file:
-        file.write(playlist_section)
-
         # Append modified content for Mrgaming playlist only
         for name, link in names_links.items():
             file.write(f"#EXTINF:-1 , {name} {link['tag']}\n")
             file.write(f"https://{link['authority']}/{link['path']}\n")
+
 else:
     # If the marker doesn't exist, append it and the new links to the end of the file
     with open(file_path, 'a') as file:
