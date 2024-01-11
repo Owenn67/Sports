@@ -1,13 +1,19 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , Liverpool vs Fulham - SOCCER/FOOTBALL
-https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 , Real Madrid vs Atletico Madrid - SOCCER/FOOTBALL
-https://hls.streambtw.com/live/stream_5.m3u8
-#EXTINF:-1 , Lazio vs Roma - SOCCER/FOOTBALL
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 , Milan vs Atalanta - SOCCER/FOOTBALL
-https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , CRICKET(24x7) - CRICKET
+https://hls.streambtw.com/live/stream_e1.m3u8
+#EXTINF:-1 , NBA TV NETWORK (24x7) - NBA
+https://hls.streambtw.com/live/stream_nbatv.m3u8
+#EXTINF:-1 , Cleveland Cavaliers vs Brooklyn Nets - NBA
+https://hls.streambtw.com/live/stream_nba1.m3u8
+#EXTINF:-1 , Milwaukee Bucks vs Boston Celtics - NBA
+https://hls.streambtw.com/live/stream_nba2.m3u8
+#EXTINF:-1 , Oklahoma City Thunder vs Portland Trail Blazers - NBA
+https://hls.streambtw.com/live/stream_nba3.m3u8
+#EXTINF:-1 , Dallas Mavericks vs New York Knicks - NBA
+https://hls.streambtw.com/live/stream_nba4.m3u8
+#EXTINF:-1 , Los Angeles Lakers vs Phoenix Suns - NBA
+https://hls.streambtw.com/live/stream_nba2.m3u8
 #PLAYLIST:Mrgaming
 #EXTINF:-1 , ACC Network 24-7-tv
 https://247.mrgamingstreams.com/mrgamingaccn.m3u8
@@ -23,8 +29,6 @@ https://247b.mrgamingstreams.com/mrgamingespn2.m3u8
 https://247.mrgamingstreams.com/mrgamingespnews.m3u8
 #EXTINF:-1 , ESPN U 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingespnu.m3u8
-#EXTINF:-1 , Eurosport 2 24-7-tv
-https://247b.mrgamingstreams.com/mrgamingeuro2.m3u8
 #EXTINF:-1 , FS1 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingfs1.m3u8
 #EXTINF:-1 , FS2 24-7-tv
@@ -32,11 +36,11 @@ https://247b.mrgamingstreams.com/mrgamingfs2.m3u8
 #EXTINF:-1 , FloRacing 24/7 24-7-tv
 https://linear-554.frequency.stream/dist/flosports/554/hls/master/playlist.m3u8
 #EXTINF:-1 , Fox Deportes 24-7-tv
-https://mcdn.mrgamingstreams.com/foxd.m3u8
+https://247b.mrgamingstreams.com/mrgamingdeportes.m3u8
 #EXTINF:-1 , Longhorn Net 24-7-tv
 https://247b.mrgamingstreams.com/mrgaminglonghorn.m3u8
 #EXTINF:-1 , MAVTV 24-7-tv
-https://bp2.mrgamingstreams.com/mrgamingmavtv.m3u8
+https://247b.mrgamingstreams.com/mrgamingmavtv.m3u8
 #EXTINF:-1 , NBC Sports Cali 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingcali.m3u8
 #EXTINF:-1 , NBC Sports Philly 24-7-tv
@@ -59,6 +63,8 @@ https://247b.mrgamingstreams.com/mrgamingmainevent.m3u8
 https://247b.mrgamingstreams.com/mrgamingmix.m3u8
 #EXTINF:-1 , Supersport Cricket 24-7-tv
 https://247c.mrgamingstreams.com/mrgamingsscric.m3u8
+#EXTINF:-1 , Supersport Action 24-7-tv
+https://247b.mrgamingstreams.com/mrgamingaction.m3u8
 #EXTINF:-1 , Tennis Channel 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingtennis.m3u8
 #EXTINF:-1 , TNT 24-7-tv
@@ -79,10 +85,12 @@ https://247c.mrgamingstreams.com/mrgamingtsn3.m3u8
 https://247b.mrgamingstreams.com/mrgamingtyc.m3u8
 #EXTINF:-1 , Willow TV 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingwillow.m3u8
+#EXTINF:-1 , WWE Network 24-7-tv
+https://247b.mrgamingstreams.com/mrgamingwwenet.m3u8
 #EXTINF:-1 , ABC 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingabc.m3u8
 #EXTINF:-1 , AMC 24-7-tv
-https://247b.mrgamingstreams.com/amc.m3u8
+https://247b.mrgamingstreams.com/mrgamingamc.m3u8
 #EXTINF:-1 , CBS 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingcbs.m3u8
 #EXTINF:-1 , CNBC 24-7-tv
@@ -92,10 +100,8 @@ https://247b.mrgamingstreams.com/mrgamingfox.m3u8
 #EXTINF:-1 , NBC 24-7-tv
 https://247.mrgamingstreams.com/mrgamingnbc.m3u8
 #EXTINF:-1 , SYFY 24-7-tv
-https://247b.mrgamingstreams.com/syfy.m3u8
+https://247b.mrgamingstreams.com/mrgamingsyfy.m3u8
 #EXTINF:-1 , Sky Sports News 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingskynews.m3u8
 #EXTINF:-1 , TruTV 24-7-tv
 https://247b.mrgamingstreams.com/mrgamingtrutv.m3u8
-#EXTINF:-1 , AEW fighting
-https://bp1.mrgamingstreams.com/mrgamingwwe.m3u8
