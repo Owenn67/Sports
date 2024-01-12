@@ -3,13 +3,13 @@ from bs4 import BeautifulSoup
 import re
 import os
 
-# Fetch HTML content and parse it
+# Fetch HTML content and parse it for 24-7-tv
 url = 'https://mrgamingstreams.com/24-7-tv/'
 response = requests.get(url)
 html_content = response.content
 soup = BeautifulSoup(html_content, 'html.parser')
 
-# Extract names and create .m3u8 links
+# Extract names and create .m3u8 links for 24-7-tv
 names_links = {}
 channel_divs = soup.find_all('div', class_='wp-block-button')
 
@@ -20,22 +20,18 @@ for channel_div in channel_divs:
     # Fetch each channel's page
     channel_page_response = requests.get(href)
     if channel_page_response.status_code == 200:
-        channel_page = channel_page_response.text
-        # Search for .m3u8 URL in the response text
-        m3u8_url = re.search(r'(https://[^\s]+\.m3u8)', channel_page)
+        channel_page = channel_page_response.text                                                                                                              # Search for .m3u8 URL in the response text
+        m3u8_urls = re.findall(r'(https://[^\s]+\.m3u8)', channel_page)
 
-        if m3u8_url:
-            # Extracted .m3u8 URL
-            extracted_m3u8 = m3u8_url.group()
+        if m3u8_urls:
+            # Store multiple unique .m3u8 URLs if found
+            links = set()  # Using a set to avoid duplicates
+            for m3u8_url in m3u8_urls:
+                links.add(m3u8_url)
 
-            # Parse :authority: and :path: from the URL
-            authority = extracted_m3u8.split('/')[2]
-            path = '/'.join(extracted_m3u8.split('/')[3:])
-
-            # Store the channel name, :authority:, and :path:
+            # Store the channel name with unique links
             names_links[channel_name] = {
-                "authority": authority,
-                "path": path,
+                "links": list(links),
                 "tag": "24-7-tv"  # Adding tag for source page
             }
         else:
@@ -64,27 +60,23 @@ if schedule_table:
             if event_page_response.status_code == 200:
                 event_page = event_page_response.text
                 # Search for .m3u8 URL in the response text
-                m3u8_url = re.search(r'(https://[^\s]+\.m3u8)', event_page)
+                m3u8_urls = re.findall(r'(https://[^\s]+\.m3u8)', event_page)
 
-                if m3u8_url:
-                    # Extracted .m3u8 URL
-                    extracted_m3u8 = m3u8_url.group()
+                if m3u8_urls:
+                    # Store multiple unique .m3u8 URLs if found
+                    links = set()  # Using a set to avoid duplicates
+                    for m3u8_url in m3u8_urls:
+                        links.add(m3u8_url)
 
-                    # Parse :authority: and :path: from the URL
-                    authority = extracted_m3u8.split('/')[2]
-                    path = '/'.join(extracted_m3u8.split('/')[3:])
-
-                    # Add the event to your names_links dictionary with a tag
+                    # Store the event name with unique links
                     names_links[event_name] = {
-                        "authority": authority,
-                        "path": path,
+                        "links": list(links),
                         "tag": "fighting"  # Adding tag for source page
                     }
                 else:
                     print(f"No .m3u8 URL found for {event_name}")
             else:
                 print(f"Failed to fetch {event_name} page")
-
 # File path
 file_path = 'updated_file.m3u8'
 
@@ -110,7 +102,9 @@ if playlist_index != -1:
         # Append modified content for Mrgaming playlist only
         for name, link in names_links.items():
             file.write(f"#EXTINF:-1 , {name} {link['tag']}\n")
-            file.write(f"https://{link['authority']}/{link['path']}\n")
+            # Write all unique links associated with the name
+            for l in link['links']:
+                file.write(f"{l}\n")
 
 else:
     # If the marker doesn't exist, append it and the new links to the end of the file
@@ -119,4 +113,6 @@ else:
 
         for name, link in names_links.items():
             file.write(f"#EXTINF:-1 , {name} {link['tag']}\n")
-            file.write(f"https://{link['authority']}/{link['path']}\n")
+            # Write all unique links associated with the name
+            for l in link['links']:
+                file.write(f"{l}\n")
