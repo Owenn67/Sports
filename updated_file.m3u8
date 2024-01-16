@@ -1,33 +1,13 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , Eastleigh vs Newport County - SOCCER/Football
-https://hls.streambtw.com/live/stream_2.m3u8
-#EXTINF:-1 , Birmingham City vs Hull City - SOCCER/Football
-https://hls.streambtw.com/live/stream_3.m3u8
-#EXTINF:-1 , Bolton Wanderers vs Luton Town - SOCCER/Football
-https://hls.streambtw.com/live/stream_4.m3u8
-#EXTINF:-1 , Bristol City vs West Ham United - SOCCER/Football
-https://hls.streambtw.com/live/stream_5.m3u8
-#EXTINF:-1 , Getafe vs Sevilla - SOCCER/Football
-https://hls.streambtw.com/live/stream_6.m3u8
-#EXTINF:-1 , Athletic Club vs Deportivo Alav�s - SOCCER/Football
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 , Tenerife vs Mallorca - SOCCER/Football
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Juventus vs Sassuolo - SOCCER/Football
-https://hls.streambtw.com/live/stream_9.m3u8
-#EXTINF:-1 , Burkina Faso vs Mauritania - SOCCER/Football
-https://hls.streambtw.com/live/stream_10.m3u8
-#EXTINF:-1 , Tunisia vs Namibia - SOCCER/Football
-https://hls.streambtw.com/live/stream_10.m3u8
-#EXTINF:-1 , Mali vs South Africa - SOCCER/Football
-https://hls.streambtw.com/live/stream_10.m3u8
-#EXTINF:-1 , Korea Republic vs Bahrain - Asia - AFC Asian Cup
-https://hls.streambtw.com/live/stream_11.m3u8
-#EXTINF:-1 , Thailand vs Kyrgyzstan - Asia - AFC Asian Cup
-https://hls.streambtw.com/live/stream_11.m3u8
-#EXTINF:-1 , Saudi Arabia vs Oman - Asia - AFC Asian Cup
-https://hls.streambtw.com/live/stream_11.m3u8
-#EXTINF:-1 , NFL REDZONE - NFL
-https://hls.streambtw.com/live/stream_nflredzone.m3u8
+#EXTINF:-1 , CRICKET(24x7) - CRICKET
+https://hls.streambtw.com/live/stream_e1.m3u8
+#EXTINF:-1 , Wolverhampton Wanderers vs Brentford - SOCCER/Football
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Philadelphia 76ers vs Denver Nuggets - NBA
+https://hls.streambtw.com/live/stream_nba1.m3u8
+#EXTINF:-1 , Phoenix Suns vs Sacramento Kings - NBA
+https://hls.streambtw.com/live/stream_nba2.m3u8
+#EXTINF:-1 , Los Angeles Clippers vs Oklahoma City Thunder - NBA
+https://hls.streambtw.com/live/stream_nba3.m3u8
 #PLAYLIST:Mrgaming
