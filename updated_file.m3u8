@@ -1,7 +1,33 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , CRICKET(24x7) - CRICKET
-https://hls.streambtw.com/live/stream_e1.m3u8
-#EXTINF:-1 , Unionistas de Salamanca vs Barcelona - SOCCER/Football
-https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Atletico Madrid vs Real Madrid - SOCCER/Football
+https://hls.streambtw.com/live/stream_2.m3u8
+#EXTINF:-1 , Napoli vs Fiorentina - SOCCER/Football
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Famalic�o vs Sporting Braga - SOCCER/Football
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Vizela vs Sporting CP - SOCCER/Football
+https://hls.streambtw.com/live/stream_4.m3u8
+#EXTINF:-1 , Equatorial Guinea vs Guinea-Bissau - SOCCER/Football
+https://hls.streambtw.com/live/stream_10.m3u8
+#EXTINF:-1 , C�te d'Ivoire vs Nigeria - SOCCER/Football
+https://hls.streambtw.com/live/stream_10.m3u8
+#EXTINF:-1 , Egypt vs Ghana - SOCCER/Football
+https://hls.streambtw.com/live/stream_10.m3u8
+#EXTINF:-1 , Syria vs Australia - SOCCER/Football
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , India vs Uzbekistan - SOCCER/Football
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , Palestine vs United Arab Emirates - SOCCER/Football
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , New York Knicks vs Washington Wizards - NBA
+https://hls.streambtw.com/live/stream_nba1.m3u8
+#EXTINF:-1 , Toronto Raptors vs Chicago Bulls - NBA
+https://hls.streambtw.com/live/stream_nba2.m3u8
+#EXTINF:-1 , Utah Jazz vs Oklahoma City Thunder - NBA
+https://hls.streambtw.com/live/stream_nba2.m3u8
+#EXTINF:-1 , Minnesota Timberwolves vs Memphis Grizzlies - NBA
+https://hls.streambtw.com/live/stream_nba3.m3u8
+#EXTINF:-1 , Sacramento Kings vs Indiana Pacers - NBA
+https://hls.streambtw.com/live/stream_nba4.m3u8
 #PLAYLIST:Mrgaming
