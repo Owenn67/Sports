@@ -6,7 +6,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 12,18 * * *'  # Runs at 12 PM and 6 PM GMT every day
+    - cron: '0 * * * *'  # Runs every hour
 
 jobs:
   update_m3u8:
