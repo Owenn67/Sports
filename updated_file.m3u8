@@ -1,47 +1,23 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , Tennis(24x7) - Tennis Australian Open
-https://hls.streambtw.com/live/stream_e2.m3u8
-#EXTINF:-1 , UFC 297: Strickland vs du Plessis - BOXING / FIGHTS
-https://hls.streambtw.com/live/stream_ufc1.m3u8
-#EXTINF:-1 , Jonas vs Mayer - BOXING / FIGHTS
-https://hls.streambtw.com/live/stream_box1.m3u8
-#EXTINF:-1 , Roma vs Hellas Verona - Serie A
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 , Udinese vs Milan - Serie A
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 , Jordan vs Korea Republic - AFC Asian Cup
-https://hls.streambtw.com/live/stream_5.m3u8
-#EXTINF:-1 , Bahrain vs Malaysia - AFC Asian Cup
-https://hls.streambtw.com/live/stream_5.m3u8
-#EXTINF:-1 , Estoril vs Arouca - Liga Purtogal
-https://hls.streambtw.com/live/stream_4.m3u8
-#EXTINF:-1 , Casa Pia vs Farense - Liga Purtogal
-https://hls.streambtw.com/live/stream_4.m3u8
-#EXTINF:-1 , Porto vs Moreirense - Liga Purtogal
-https://hls.streambtw.com/live/stream_4.m3u8
-#EXTINF:-1 , Freiburg vs Hoffenheim - Bundesliga
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Bochum vs Stuttgart - Bundesliga
-https://hls.streambtw.com/live/stream_10.m3u8
-#EXTINF:-1 , Heidenheim vs Wolfsburg - Bundesliga
-https://hls.streambtw.com/live/stream_11.m3u8
-#EXTINF:-1 , Darmstadt 98 vs Eintracht Frankfurt - Bundesliga
-https://hls.streambtw.com/live/stream_12.m3u8
-#EXTINF:-1 , RB Leipzig vs Bayer Leverkusen - Bundesliga
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Baltimore Ravens vs Houston Texans - NFL
-https://hls.streambtw.com/live/stream_nfl1.m3u8
-#EXTINF:-1 , San Francisco 49ers vs Green Bay Packers - NFL
-https://hls.streambtw.com/live/stream_nfl2.m3u8
-#EXTINF:-1 , Charlotte Hornets vs San Antonio Spurs - NBA
-https://hls.streambtw.com/live/stream_nba1.m3u8
-#EXTINF:-1 , Orlando Magic vs Philadelphia 76ers - NBA
-https://hls.streambtw.com/live/stream_nba2.m3u8
-#EXTINF:-1 , Boston Celtics vs Denver Nuggets - NBA
-https://hls.streambtw.com/live/stream_nba3.m3u8
-#EXTINF:-1 , Miami Heat vs Atlanta Hawks - NBA
-https://hls.streambtw.com/live/stream_nba4.m3u8
-#EXTINF:-1 , Los Angeles Lakers vs Brooklyn Nets - NBA
-https://hls.streambtw.com/live/stream_nba3.m3u8
+#EXTINF:-1 , CRICKET(24x7) - CRICKET
+https://hls.streambtw.com/live/stream_e1.m3u8
+#EXTINF:-1 , Arsenal vs Crystal Palace - Premier League
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Brentford vs Nottingham Forest - Premier League
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Rayo Vallecano vs Las Palmas - Laliga
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Villarreal vs Mallorca - Laliga
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Valencia vs Athletic Club - Laliga
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Celta de Vigo vs Real Sociedad - Laliga
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Koln vs Borussia Dortmund - Bundesliga
+https://hls.streambtw.com/live/stream_9.m3u8
+#EXTINF:-1 , New Orleans Pelicans vs Phoenix Suns - NBA
+https://hls.streambtw.com/live/stream_nba5.m3u8
+#EXTINF:-1 , Portland Trail Blazers vs Indiana Pacers - NBA
+https://hls.streambtw.com/live/stream_nba6.m3u8
 #PLAYLIST:Mrgaming
