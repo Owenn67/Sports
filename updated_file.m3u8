@@ -1,13 +1,3 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , CRICKET(24x7) - CRICKET
-https://hls.streambtw.com/live/stream_e1.m3u8
-#EXTINF:-1 , Fulham vs Liverpool - Soccer/Football
-https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 , Mallorca vs Girona - Soccer/Football
-https://hls.streambtw.com/live/stream_3.m3u8
-#EXTINF:-1 , Athletic Club vs Barcelona - Soccer/Football
-https://hls.streambtw.com/live/stream_6.m3u8
-#EXTINF:-1 , Bayern Munchen vs Union Berlin - Soccer/Football
-https://hls.streambtw.com/live/stream_8.m3u8
 #PLAYLIST:Mrgaming
