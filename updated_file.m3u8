@@ -1,3 +1,37 @@
 #EXTM3U
 ##PLAYLIST:StreamB
+#EXTINF:-1 , Boxing - Christian Araneta vs Arvin Magramo - Boxing
+https://hls.streambtw.com/live/stream_box2.m3u8
+#EXTINF:-1 , Boxing - Erik Bazinyan vs Billi Facundo Godoy - Boxing
+https://hls.streambtw.com/live/stream_box1.m3u8
+#EXTINF:-1 , CRICKET(24x7) - CRICKET
+https://hls.streambtw.com/live/stream_e1.m3u8
+#EXTINF:-1 , Tennis(24x7) - Tennis Australian Open
+https://hls.streambtw.com/live/stream_e2.m3u8
+#EXTINF:-1 , AFC Bournemouth vs Swansea City - Soccer/Football
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Atl�tico Madrid vs Sevilla - Soccer/Football
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Korea Republic vs Malaysia - Soccer/Football
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , Jordan vs Bahrain - Soccer/Football
+https://hls.streambtw.com/live/stream_4.m3u8
+#EXTINF:-1 , Kyrgyzstan vs Oman - Soccer/Football
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , Saudi Arabia vs Thailand - Soccer/Football
+https://hls.streambtw.com/live/stream_4.m3u8
+#EXTINF:-1 , Indiana Pacers vs Philadelphia 76ers - NBA
+https://hls.streambtw.com/live/stream_nba1.m3u8
+#EXTINF:-1 , Washington Wizards vs Utah Jazz - NBA
+https://hls.streambtw.com/live/stream_nba2.m3u8
+#EXTINF:-1 , Brooklyn Nets vs Minnesota Timberwolves - NBA
+https://hls.streambtw.com/live/stream_nba3.m3u8
+#EXTINF:-1 , Miami Heat vs Boston Celtics - NBA
+https://hls.streambtw.com/live/stream_nba4.m3u8
+#EXTINF:-1 , New York Knicks vs Denver Nuggets - NBA
+https://hls.streambtw.com/live/stream_nba5.m3u8
+#EXTINF:-1 , Golden State Warriors vs Sacramento Kings - NBA
+https://hls.streambtw.com/live/stream_nba4.m3u8
+#EXTINF:-1 , Los Angeles Lakers vs Chicago Bulls - NBA
+https://hls.streambtw.com/live/stream_nba6.m3u8
 #PLAYLIST:Mrgaming
