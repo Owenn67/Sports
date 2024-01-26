@@ -1,15 +1,31 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , Chelsea vs Aston Villa - Soccer/Football
-https://hls.streambtw.com/live/stream_2.m3u8
-#EXTINF:-1 , Bristol City vs Nottingham Forest - Soccer/Football
-https://hls.streambtw.com/live/stream_3.m3u8
-#EXTINF:-1 , Cagliari vs Torino - Soccer/Football
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 , Olympique Lyonnais vs Rennes - Soccer/Football
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Eintracht Frankfurt vs Mainz 05 - Soccer/Football
-https://hls.streambtw.com/live/stream_9.m3u8
-#EXTINF:-1 , New Orleans Pelicans vs Oklahoma City Thunder - NBA
-https://hls.streambtw.com/live/stream_nba7.m3u8
+#EXTINF:-1 , Boxing - Christian Araneta vs Arvin Magramo - Boxing
+https://hls.streambtw.com/live/stream_box2.m3u8
+#EXTINF:-1 , Boxing - Erik Bazinyan vs Billi Facundo Godoy - Boxing
+https://hls.streambtw.com/live/stream_box1.m3u8
+#EXTINF:-1 , CRICKET(24x7) - CRICKET
+https://hls.streambtw.com/live/stream_e1.m3u8
+#EXTINF:-1 , Tennis(24x7) - Tennis Australian Open
+https://hls.streambtw.com/live/stream_e2.m3u8
+#EXTINF:-1 , Sheffield Wednesday vs Coventry City - Soccer/Football
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Tottenham Hotspur vs Manchester City - Soccer/Football
+https://hls.streambtw.com/live/stream_4.m3u8
+#EXTINF:-1 , Almer�a vs Deportivo Alav�s - Soccer/Football
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Atlanta Hawks vs Dallas Mavericks - NBA
+https://hls.streambtw.com/live/stream_nba1.m3u8
+#EXTINF:-1 , Charlotte Hornets vs Houston Rockets - NBA
+https://hls.streambtw.com/live/stream_nba2.m3u8
+#EXTINF:-1 , Indiana Pacers vs Phoenix Suns - NBA
+https://hls.streambtw.com/live/stream_nba3.m3u8
+#EXTINF:-1 , Toronto Raptors vs Los Angeles Clippers - NBA
+https://hls.streambtw.com/live/stream_nba4.m3u8
+#EXTINF:-1 , Memphis Grizzlies vs Orlando Magic - NBA
+https://hls.streambtw.com/live/stream_nba5.m3u8
+#EXTINF:-1 , Milwaukee Bucks vs Cleveland Cavaliers - NBA
+https://hls.streambtw.com/live/stream_nba6.m3u8
+#EXTINF:-1 , San Antonio Spurs vs Portland Trail Blazers - NBA
+https://hls.streambtw.com/live/stream_nba1.m3u8
 #PLAYLIST:Mrgaming
