@@ -1,17 +1,7 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , CRICKET(24x7) - CRICKET
-https://hls.streambtw.com/live/stream_e1.m3u8
-#EXTINF:-1 , West Ham United vs AFC Bournemouth - Premier League
-https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 , Wolverhampton Wanderers vs Manchester United - Premier League
-https://hls.streambtw.com/live/stream_2.m3u8
-#EXTINF:-1 , Boston Celtics vs Los Angeles Lakers - NBA
-https://hls.streambtw.com/live/stream_nba1.m3u8
-#EXTINF:-1 , New York Knicks vs Indiana Pacers - NBA
-https://hls.streambtw.com/live/stream_nba2.m3u8
-#EXTINF:-1 , Memphis Grizzlies vs Cleveland Cavaliers - NBA
-https://hls.streambtw.com/live/stream_nba3.m3u8
-#EXTINF:-1 , Utah Jazz vs Philadelphia 76ers - NBA
-https://hls.streambtw.com/live/stream_nba1.m3u8
+#EXTINF:-1 , Al Nassr vs Inter Miami - Top Games
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Getafe vs Real Madrid - Soccer/Football
+https://hls.streambtw.com/live/stream_6.m3u8
 #PLAYLIST:Mrgaming
