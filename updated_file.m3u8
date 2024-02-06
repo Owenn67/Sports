@@ -1,21 +1,17 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , Plymouth Argyle vs Leeds United - Football / Soccer
-https://hls.streambtw.com/live/stream_2.m3u8
-#EXTINF:-1 , Southampton vs Watford - Football / Soccer
-https://hls.streambtw.com/live/stream_3.m3u8
-#EXTINF:-1 , Vissel Kobe vs Inter Miami - Football / Soccer
-https://hls.streambtw.com/live/stream_3.m3u8
-#EXTINF:-1 , Mallorca vs Real Sociedad - Football / Soccer
-https://hls.streambtw.com/live/stream_6.m3u8
-#EXTINF:-1 , Bayer Leverkusen vs Stuttgart - Football / Soccer
-https://hls.streambtw.com/live/stream_9.m3u8
-#EXTINF:-1 , Jordan vs Korea Republic - Football / Soccer
-https://hls.streambtw.com/live/stream_5.m3u8
-#EXTINF:-1 , Memphis Grizzlies vs New York Knicks - NBA
-https://hls.streambtw.com/live/stream_nba4.m3u8
-#EXTINF:-1 , Minnesota Timberwolves vs Chicago Bulls - NBA
-https://hls.streambtw.com/live/stream_nba5.m3u8
-#EXTINF:-1 , Oklahoma City Thunder vs  Utah Jazz - NBA
-https://hls.streambtw.com/live/stream_nba6.m3u8
+#EXTINF:-1 , CRICKET(24x7) - CRICKET
+https://hls.streambtw.com/live/stream_e1.m3u8
+#EXTINF:-1 , WWE - BOXING /MMA
+https://hls.streambtw.com/live/stream_wwe.m3u8
+#EXTINF:-1 , Coventry City vs Sheffield Wednesday - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Houston Rockets vs Indiana Pacers - NBA
+https://hls.streambtw.com/live/stream_nba1.m3u8
+#EXTINF:-1 , Dallas Mavericks vs Brooklyn Nets - NBA
+https://hls.streambtw.com/live/stream_nba2.m3u8
+#EXTINF:-1 , Orlando Magic vs Miami Heat - NBA
+https://hls.streambtw.com/live/stream_nba3.m3u8
+#EXTINF:-1 , Milwaukee Bucks vs Phoenix Suns - NBA
+https://hls.streambtw.com/live/stream_nba7.m3u8
 #PLAYLIST:Mrgaming
