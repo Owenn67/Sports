@@ -1,17 +1,53 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , CRICKET(24x7) - CRICKET
-https://hls.streambtw.com/live/stream_e1.m3u8
-#EXTINF:-1 , Lens vs Strasbourg - Football / Soccer
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , PSG vs Lille - Football / Soccer
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Philadelphia 76ers vs Atlanta Hawks - NBA
-https://hls.streambtw.com/live/stream_nba1.m3u8
-#EXTINF:-1 , Boston Celtics vs Washington Wizards - NBA
-https://hls.streambtw.com/live/stream_nba2.m3u8
-#EXTINF:-1 , Toronto Raptors vs Houston Rockets - NBA
-https://hls.streambtw.com/live/stream_nba3.m3u8
-#EXTINF:-1 , Los Angeles Lakers vs New Orleans Pelicans - NBA
-https://hls.streambtw.com/live/stream_nba1.m3u8
+#EXTINF:-1 , UFC Fight Night: Hermansson vs Pyfer - BOXING /MMA
+https://hls.streambtw.com/live/stream_ufc1.m3u8
+#EXTINF:-1 , Sheeraz vs Williams - BOXING /MMA
+https://hls.streambtw.com/live/stream_box1.m3u8
+#EXTINF:-1 , Dillon vs Bellotti - BOXING /MMA
+https://hls.streambtw.com/live/stream_box2.m3u8
+#EXTINF:-1 , Manchester City vs Everton - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Fulham vs AFC Bournemouth - Football / Soccer
+https://hls.streambtw.com/live/stream_2.m3u8
+#EXTINF:-1 , Liverpool vs Burnley - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Luton Town vs Sheffield United - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Tottenham Hotspur vs Brighton & Hove Albion - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Wolverhampton Wanderers vs Brentford - Football / Soccer
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , Nottingham Forest vs Newcastle United - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Real Sociedad vs Osasuna - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Real Madrid vs Girona - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Las Palmas vs Valencia - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Cagliari vs Laziol - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Roma vs Internazionale - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Sassuolo vs Torino - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Union Berlin vs Wolfsburg - Football / Soccer
+https://hls.streambtw.com/live/stream_9.m3u8
+#EXTINF:-1 , Eintracht Frankfurt vs Bochum - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Borussia M'gladbach vs Darmstadt 98 - Football / Soccer
+https://hls.streambtw.com/live/stream_11.m3u8
+#EXTINF:-1 , Werder Bremen vs Heidenheim - Football / Soccer
+https://hls.streambtw.com/live/stream_12.m3u8
+#EXTINF:-1 , Augsburg vs RB Leipzig - Football / Soccer
+https://hls.streambtw.com/live/stream_13.m3u8
+#EXTINF:-1 , Bayer Leverkusen vs Bayern M�nchen - Football / Soccer
+https://hls.streambtw.com/live/stream_9.m3u8
+#EXTINF:-1 , Jordan vs Qatar - Football / Soccer
+https://hls.streambtw.com/live/stream_14.m3u8
+#EXTINF:-1 , Milwaukee Bucks vs Charlotte Hornets - NBA
+https://hls.streambtw.com/live/stream_nba4.m3u8
+#EXTINF:-1 , Sacramento Kings vs Denver Nuggets - NBA
+https://hls.streambtw.com/live/stream_nba5.m3u8
 #PLAYLIST:Mrgaming
