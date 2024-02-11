@@ -1,31 +1,41 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , NFL Super Bowl Live Stream - CRICKET
-https://hls.streambtw.com/live/stream_nfl1.m3u8
-#EXTINF:-1 , UFC Fight Night: Hermansson vs Pyfer - BOXING /MMA
-https://hls.streambtw.com/live/stream_ufc1.m3u8
-#EXTINF:-1 , Dillon vs Bellotti - BOXING /MMA
-https://hls.streambtw.com/live/stream_box2.m3u8
-#EXTINF:-1 , Lens vs Strasbourg - Football / Soccer
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , PSG vs Lille - Football / Soccer
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Dallas Mavericks vs Oklahoma City Thunder - NBA
-https://hls.streambtw.com/live/stream_nba1.m3u8
-#EXTINF:-1 , Los Angeles Clippers vs Detroit Pistons - NBA
-https://hls.streambtw.com/live/stream_nba2.m3u8
-#EXTINF:-1 , Brooklyn Nets vs San Antonio Spurs - NBA
-https://hls.streambtw.com/live/stream_nba3.m3u8
-#EXTINF:-1 , Washington Wizards vs Philadelphia 76ers - NBA
-https://hls.streambtw.com/live/stream_nba6.m3u8
-#EXTINF:-1 , Atlanta Hawks vs Houston Rockets - NBA
-https://hls.streambtw.com/live/stream_nba7.m3u8
-#EXTINF:-1 , New York Knicks vs Indiana Pacers - NBA
-https://hls.streambtw.com/live/stream_nba8.m3u8
-#EXTINF:-1 , Toronto Raptors vs Cleveland Cavaliers - NBA
-https://hls.streambtw.com/live/stream_nba9.m3u8
-#EXTINF:-1 , Golden State Warriors vs Phoenix Suns - NBA
-https://hls.streambtw.com/live/stream_nba10.m3u8
-#EXTINF:-1 , Portland Trail Blazers vs New Orleans Pelicans - NBA
-https://hls.streambtw.com/live/stream_nba11.m3u8
+#EXTINF:-1 , Sheeraz vs Williams - BOXING /MMA
+https://hls.streambtw.com/live/stream_box1.m3u8
+#EXTINF:-1 , West Ham United vs Arsenal - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Aston Villa vs Manchester United - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Getafe vs Celta de Vigo - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Mallorca vs Rayo Vallecano - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Sevilla vs Atletico Madrid - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Barcelona vs Granada - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Fiorentina vs Frosinone - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Bologna vs Lecce - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Monza vs Hellas Verona - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Genoa vs Atalanta - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Milan vs Napoli - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Lorient vs Reims - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Stuttgart vs Mainz 05 - Football / Soccer
+https://hls.streambtw.com/live/stream_9.m3u8
+#EXTINF:-1 , Hoffenheim vs Koln - Football / Soccer
+https://hls.streambtw.com/live/stream_9.m3u8
+#EXTINF:-1 , Nigeria vs C�te d'Ivoire - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Rio Ave vs Casa Pia - Football / Soccer
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , Sporting CP vs Sporting Braga - Football / Soccer
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , Vit�ria Guimar�es vs Benfica - Football / Soccer
+https://hls.streambtw.com/live/stream_5.m3u8
 #PLAYLIST:Mrgaming
