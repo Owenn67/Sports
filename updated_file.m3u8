@@ -1,21 +1,41 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , NFL Super Bowl Live Stream - CRICKET
-https://hls.streambtw.com/live/stream_nfl1.m3u8
-#EXTINF:-1 , UFC Fight Night: Hermansson vs Pyfer - BOXING /MMA
-https://hls.streambtw.com/live/stream_ufc1.m3u8
-#EXTINF:-1 , Dillon vs Bellotti - BOXING /MMA
-https://hls.streambtw.com/live/stream_box2.m3u8
-#EXTINF:-1 , Le Havre vs Rennes - Football / Soccer
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Toulouse vs Nantes - Football / Soccer
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Montpellier vs Olympique Lyonnais - Football / Soccer
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Nice vs Monaco - Football / Soccer
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Miami Heat vs Boston Celtics - NBA
-https://hls.streambtw.com/live/stream_nba1.m3u8
-#EXTINF:-1 , Oklahoma City Thunder vs Sacramento Kings - NBA
-https://hls.streambtw.com/live/stream_nba2.m3u8
+#EXTINF:-1 , Sheeraz vs Williams - BOXING /MMA
+https://hls.streambtw.com/live/stream_box1.m3u8
+#EXTINF:-1 , West Ham United vs Arsenal - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Aston Villa vs Manchester United - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Getafe vs Celta de Vigo - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Mallorca vs Rayo Vallecano - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Sevilla vs Atletico Madrid - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Barcelona vs Granada - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Fiorentina vs Frosinone - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Bologna vs Lecce - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Monza vs Hellas Verona - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Genoa vs Atalanta - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Milan vs Napoli - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Lorient vs Reims - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Stuttgart vs Mainz 05 - Football / Soccer
+https://hls.streambtw.com/live/stream_9.m3u8
+#EXTINF:-1 , Hoffenheim vs Koln - Football / Soccer
+https://hls.streambtw.com/live/stream_9.m3u8
+#EXTINF:-1 , Nigeria vs C�te d'Ivoire - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Rio Ave vs Casa Pia - Football / Soccer
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , Sporting CP vs Sporting Braga - Football / Soccer
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , Vit�ria Guimar�es vs Benfica - Football / Soccer
+https://hls.streambtw.com/live/stream_5.m3u8
 #PLAYLIST:Mrgaming
