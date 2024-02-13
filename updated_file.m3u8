@@ -1,9 +1,27 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , Crystal Palace vs Chelsea - Football / Soccer
-https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 , Almeria vs Athletic Club - Football / Soccer
-https://hls.streambtw.com/live/stream_6.m3u8
-#EXTINF:-1 , Juventus vs Udinese - Football / Soccer
-https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , NFL Super Bowl Live Stream - CRICKET
+https://hls.streambtw.com/live/stream_nfl1.m3u8
+#EXTINF:-1 , Arouca vs Porto - Football / Soccer
+https://hls.streambtw.com/live/stream_8.m3u8
+#EXTINF:-1 , Charlotte Hornets vs Indiana Pacers - NBA
+https://hls.streambtw.com/live/stream_nba1.m3u8
+#EXTINF:-1 , Cleveland Cavaliers vs Philadelphia 76ers - NBA
+https://hls.streambtw.com/live/stream_nba2.m3u8
+#EXTINF:-1 , Atlanta Hawks vs Chicago Bulls - NBA
+https://hls.streambtw.com/live/stream_nba3.m3u8
+#EXTINF:-1 , Toronto Raptors vs San Antonio Spurs - NBA
+https://hls.streambtw.com/live/stream_nba4.m3u8
+#EXTINF:-1 , Houston Rockets vs New York Knicks - NBA
+https://hls.streambtw.com/live/stream_nba5.m3u8
+#EXTINF:-1 , Memphis Grizzlies vs New Orleans Pelicans - NBA
+https://hls.streambtw.com/live/stream_nba6.m3u8
+#EXTINF:-1 , Milwaukee Bucks vs Denver Nuggets - NBA
+https://hls.streambtw.com/live/stream_nba7.m3u8
+#EXTINF:-1 , Dallas Mavericks vs Washington Wizards - NBA
+https://hls.streambtw.com/live/stream_nba8.m3u8
+#EXTINF:-1 , Utah Jazz vs Golden State Warriors - NBA
+https://hls.streambtw.com/live/stream_nba9.m3u8
+#EXTINF:-1 , Los Angeles Clippers vs Minnesota Timberwolves - NBA
+https://hls.streambtw.com/live/stream_nba7.m3u8
 #PLAYLIST:Mrgaming
