@@ -1,15 +1,33 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , CRICKET 24/7 - CRICKET
-https://hls.streambtw.com/live/stream_e1.m3u8
-#EXTINF:-1 , UCL Multicast - Football / Soccer
-https://hls.streambtw.com/live/stream_3.m3u8
-#EXTINF:-1 , PSG vs Real Sociedad - Football / Soccer
-https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 , Lazio vs Bayern Munchen - Football / Soccer
-https://hls.streambtw.com/live/stream_2.m3u8
-#EXTINF:-1 , Bologna vs Fiorentina - Football / Soccer
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 , Portland Trail Blazers vs Minnesota Timberwolves - NBA
-https://hls.streambtw.com/live/stream_nba4.m3u8
+#EXTINF:-1 , UCL MultiCast - Football / Soccer
+https://hls.streambtw.com/live/stream_4.m3u8
+#EXTINF:-1 , Aberdeen vs Motherwell - Football / Soccer
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , Rangers vs Ross County - Football / Soccer
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 , Charlotte Hornets vs Atlanta Hawks - NBA
+https://hls.streambtw.com/live/stream_nba1.m3u8
+#EXTINF:-1 , Orlando Magic vs New York Knicks - NBA
+https://hls.streambtw.com/live/stream_nba2.m3u8
+#EXTINF:-1 , Philadelphia 76ers vs Miami Heat - NBA
+https://hls.streambtw.com/live/stream_nba3.m3u8
+#EXTINF:-1 , Cleveland Cavaliers vs Chicago Bulls - NBA
+https://hls.streambtw.com/live/stream_nba5.m3u8
+#EXTINF:-1 , Toronto Raptors vs Indiana Pacers - NBA
+https://hls.streambtw.com/live/stream_nba6.m3u8
+#EXTINF:-1 , Memphis Grizzlies vs Houston Rockets - NBA
+https://hls.streambtw.com/live/stream_nba7.m3u8
+#EXTINF:-1 , New Orleans Pelicans vs Washington Wizards - NBA
+https://hls.streambtw.com/live/stream_nba8.m3u8
+#EXTINF:-1 , Dallas Mavericks vs San Antonio Spurs - NBA
+https://hls.streambtw.com/live/stream_nba9.m3u8
+#EXTINF:-1 , Denver Nuggets vs Sacramento Kings - NBA
+https://hls.streambtw.com/live/stream_nba10.m3u8
+#EXTINF:-1 , Phoenix Suns vs Detroit Pistons - NBA
+https://hls.streambtw.com/live/stream_nba11.m3u8
+#EXTINF:-1 , Utah Jazz vs Los Angeles Lakers - NBA
+https://hls.streambtw.com/live/stream_nba12.m3u8
+#EXTINF:-1 , Golden State Warriors vs Los Angeles Clippers - NBA
+https://hls.streambtw.com/live/stream_nba5.m3u8
 #PLAYLIST:Mrgaming
