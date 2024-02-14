@@ -1,13 +1,15 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , Brooklyn Nets vs Boston Celtics - NBA
-https://hls.streambtw.com/live/stream_nba1.m3u8
-#EXTINF:-1 , Orlando Magic vs Oklahoma City Thunder - NBA
-https://hls.streambtw.com/live/stream_nba2.m3u8
-#EXTINF:-1 , Milwaukee Bucks vs Miami Heat - NBA
-https://hls.streambtw.com/live/stream_nba3.m3u8
-#EXTINF:-1 , Phoenix Suns vs Sacramento Kings - NBA
-https://hls.streambtw.com/live/stream_nba2.m3u8
-#EXTINF:-1 , Los Angeles Lakers vs Detroit Pistons - NBA
-https://hls.streambtw.com/live/stream_nba5.m3u8
+#EXTINF:-1 , CRICKET 24/7 - CRICKET
+https://hls.streambtw.com/live/stream_e1.m3u8
+#EXTINF:-1 , UCL Multicast - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , PSG vs Real Sociedad - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Lazio vs Bayern Munchen - Football / Soccer
+https://hls.streambtw.com/live/stream_2.m3u8
+#EXTINF:-1 , Bologna vs Fiorentina - Football / Soccer
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 , Portland Trail Blazers vs Minnesota Timberwolves - NBA
+https://hls.streambtw.com/live/stream_nba4.m3u8
 #PLAYLIST:Mrgaming
