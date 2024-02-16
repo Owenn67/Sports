@@ -1,15 +1,15 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , Ajax vs Bodo Glimt - Football / Soccer
-https://hls.streambtw.com/live/stream_4.m3u8
-#EXTINF:-1 , Lens vs Freiburg - Football / Soccer
-https://hls.streambtw.com/live/stream_5.m3u8
-#EXTINF:-1 , Real Betis vs Dinamo Zagreb - Football / Soccer
-https://hls.streambtw.com/live/stream_6.m3u8
-#EXTINF:-1 , Memphis Grizzlies vs Milwaukee Bucks - NBA
-https://hls.streambtw.com/live/stream_nba1.m3u8
-#EXTINF:-1 , Utah Jazz vs Golden State Warriors - NBA
-https://hls.streambtw.com/live/stream_nba2.m3u8
-#EXTINF:-1 , Portland Trail Blazers vs Minnesota Timberwolves - NBA
-https://hls.streambtw.com/live/stream_nba3.m3u8
+#EXTINF:-1 , CRICKET 24/7 - CRICKET
+https://hls.streambtw.com/live/stream_e1.m3u8
+#EXTINF:-1 , Feyenoord vs Roma - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Young Boys vs Sporting CP - Football / Soccer
+https://hls.streambtw.com/live/stream_2.m3u8
+#EXTINF:-1 , Shakhtar Donetsk vs Olympique Marseille - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Milan vs Rennes - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Benfica vs Toulouse - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
 #PLAYLIST:Mrgaming
