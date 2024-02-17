@@ -1,21 +1,47 @@
 #EXTM3U
 ##PLAYLIST:StreamB
-#EXTINF:-1 , Villarreal vs Getafe - Football / Soccer
-https://hls.streambtw.com/live/stream_6.m3u8
-#EXTINF:-1 , Torino vs Lecce - Football / Soccer
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 , Internazionale vs Salernitana - Football / Soccer
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 , Olympique Lyonnais vs Nice - Football / Soccer
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 , Koln vs Werder Bremen - Football / Soccer
-https://hls.streambtw.com/live/stream_9.m3u8
-#EXTINF:-1 , Famalicao vs Rio Ave - Football / Soccer
-https://hls.streambtw.com/live/stream_10.m3u8
-#EXTINF:-1 , Memphis Grizzlies vs Milwaukee Bucks - NBA
-https://hls.streambtw.com/live/stream_nba1.m3u8
-#EXTINF:-1 , Utah Jazz vs Golden State Warriors - NBA
-https://hls.streambtw.com/live/stream_nba2.m3u8
-#EXTINF:-1 , Portland Trail Blazers vs Minnesota Timberwolves - NBA
-https://hls.streambtw.com/live/stream_nba3.m3u8
+#EXTINF:-1 , India vs England - CRICKET
+https://hls.streambtw.com/live/stream_e1.m3u8
+#EXTINF:-1 , UFC 298: Volkanovski vs Topuria - BOXING
+https://hls.streambtw.com/live/stream_ufc1.m3u8
+#EXTINF:-1 , Picazo vs Cardenas - BOXING
+https://hls.streambtw.com/live/stream_box2.m3u8
+#EXTINF:-1 , Mayhem in Myrtle 8 - BOXING
+https://hls.streambtw.com/live/stream_box3.m3u8
+#EXTINF:-1 , Curiel vs Nontshinga 2 - BOXING
+https://hls.streambtw.com/live/stream_box4.m3u8
+#EXTINF:-1 , Brentford vs Liverpool - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Burnley vs Arsenal - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Fulham vs Aston Villa - Football / Soccer
+https://hls.streambtw.com/live/stream_2.m3u8
+#EXTINF:-1 , Newcastle United vs AFC Bournemouth - Football / Soccer
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 , Nottingham Forest vs West Ham United - Football / Soccer
+https://hls.streambtw.com/live/stream_4.m3u8
+#EXTINF:-1 , Tottenham Hotspur vs Wolverhampton Wanderers - Football / Soccer
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 , Manchester City vs Chelsea - Football / Soccer
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 , Hoffenheim vs Union Berlin - Football / Soccer
+https://hls.streambtw.com/live/stream_11.m3u8
+#EXTINF:-1 , Heidenheim vs Bayer Leverkusen - Football / Soccer
+https://hls.streambtw.com/live/stream_12.m3u8
+#EXTINF:-1 , Darmstadt 98 vs Stuttgart - Football / Soccer
+https://hls.streambtw.com/live/stream_13.m3u8
+#EXTINF:-1 , Chaves vs Boavista - Football / Soccer
+https://hls.streambtw.com/live/stream_14.m3u8
+#EXTINF:-1 , Portimonense vs Vitoria Guimar�es - Football / Soccer
+https://hls.streambtw.com/live/stream_14.m3u8
+#EXTINF:-1 , Porto vs Estrela - Football / Soccer
+https://hls.streambtw.com/live/stream_14.m3u8
+#EXTINF:-1 , Al Hazm vs Al Feiha - Football / Soccer
+https://hls.streambtw.com/live/stream_e2.m3u8
+#EXTINF:-1 , Al Nassr vs Al Fateh - Football / Soccer
+https://hls.streambtw.com/live/stream_e2.m3u8
+#EXTINF:-1 , Plymouth Argyle vs Leeds United - Football / Soccer
+https://sportsleading.online/live/stream_e1.m3u8
+#EXTINF:-1 , Leicester City vs Middlesbrough - Football / Soccer
+https://hls.streambtw.com/live/stream_e1.m3u8
 #PLAYLIST:Mrgaming
